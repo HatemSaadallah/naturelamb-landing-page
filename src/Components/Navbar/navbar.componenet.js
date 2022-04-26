@@ -7,7 +7,6 @@ export default function Navbar() {
         <Layout>
             <Header
                 style={{
-                    position: 'fixed',
                     zIndex: 1,
                     width: '100%',
                 }}
@@ -30,15 +29,6 @@ export default function Navbar() {
                     marginTop: 64,
                 }}
             >
-                <Breadcrumb
-                    style={{
-                        margin: '16px 0',
-                    }}
-                >
-                    <Breadcrumb.Item>Home</Breadcrumb.Item>
-                    <Breadcrumb.Item>List</Breadcrumb.Item>
-                    <Breadcrumb.Item>App</Breadcrumb.Item>
-                </Breadcrumb>
                 <div
                     className="site-layout-background"
                     style={{
