@@ -1,4 +1,4 @@
-import { Layout, Menu } from 'antd';
+import { Menu } from 'antd';
 import 'antd/dist/antd.css';
 
 export default function Navbar() {
