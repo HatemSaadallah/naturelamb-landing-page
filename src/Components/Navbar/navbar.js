@@ -1,5 +1,5 @@
 import {Container, Nav, Navbar, NavDropdown} from "react-bootstrap";
-import React, { Component }  from 'react';
+import React from 'react';
 
 
 export default function Navb(){
@@ -8,9 +8,9 @@ export default function Navb(){
                 <Container>
                     <Navbar.Brand href="#home">
                         <img
-                            src="/logo.png"
-                            width="180"
-                            height="45"
+                            src="/icons/logo.png"
+                            width="142.38"
+                            height="24.04"
                             className="d-inline-block align-top"
                             alt="React Bootstrap logo"
                         />
