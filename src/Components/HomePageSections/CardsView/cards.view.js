@@ -10,7 +10,7 @@ export default function CardsView() {
         <>
             <Row>
                 {/* Add two equal Cols */}
-                <Col span={14}>
+                <Col span={12}>
                     <div className="small-card-div right">
                         <SmallCard float='right' iconPath="/icons/heart.png" contentTitle="Trust" contentText={
                             `We are experts in our \n sector , we are always here to help and advise you.`
@@ -42,7 +42,7 @@ export default function CardsView() {
                         />
                     </div>
                 </Col>
-                <Col span={10}>
+                <Col span={12}>
                     <ExploreFeatures />
                 </Col>
             </Row>

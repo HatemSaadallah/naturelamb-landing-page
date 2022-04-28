@@ -4,7 +4,7 @@ import "./explorefeature.style.css";
 import { Image } from 'react-bootstrap';
 export default function ExploreFeatures() {
     return (
-        <div className='container'>
+        <div className='container-explore-card'>
             <Image
                 src='/icons/arrow.png'
                 className='explore-features-image'

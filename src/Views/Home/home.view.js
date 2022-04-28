@@ -3,18 +3,18 @@ import Navb from "../../Components/Navbar/navbar";
 
 import { Layout } from 'antd';
 import 'antd/dist/antd.css';
+import './home.style.css';
 import HeaderPart from "../../Components/HomePageSections/Header/header_part.component";
 import CardsView from '../../Components/HomePageSections/CardsView/cards.view';
 import AboutUsHome from '../../Components/HomePageSections/AboutUs/about.homepage.section';
 const { Content, Footer } = Layout;
-import SmallCard from "../../Components/Card/card";
 
 export default function Home() {
     return (
         <div>
 
             {/* Change layout background color */}
-            <Layout style={{ backgroundColor: '#fff' }}>
+            <Layout className="home-page-layout">
                 <Navb />
                 <Content
                     className="site-layout"

@@ -6,3 +6,9 @@
 .cards-view {
     margin-top: 9em;
 }
+
+.home-page-layout {
+    background-color: white;
+    width: 90%;
+    margin: 0 auto;
+}
