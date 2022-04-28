@@ -2,13 +2,15 @@
 import * as React from "react";
 import { Row, Col } from 'antd';
 import SmallCard from "../Card/card";
+import ExploreFeatures from "../ExploreFeatures/explorefeature.view";
+
 import './cardsview.style.css';
 export default function CardsView() {
     return (
         <>
             <Row>
                 {/* Add two equal Cols */}
-                <Col span={12}>
+                <Col span={14}>
                     <div className="small-card-div right">
                         <SmallCard float='right' iconPath="/icons/heart.png" contentTitle="Trust" contentText={
                             `We are experts in our \n sector , we are always here to help and advise you.`
@@ -40,8 +42,8 @@ export default function CardsView() {
                         />
                     </div>
                 </Col>
-                <Col span={12}>
-
+                <Col span={10}>
+                    <ExploreFeatures />
                 </Col>
             </Row>
         </>
