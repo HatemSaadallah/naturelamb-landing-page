@@ -1,3 +1,6 @@
+import React from 'react';
+import Navb from "../../Components/Navbar/navbar";
+import SmallCard from "../../Components/Card/card";
 import Navbar from "../../Components/Navbar/navbar.component";
 import { Layout } from 'antd';
 import 'antd/dist/antd.css';
