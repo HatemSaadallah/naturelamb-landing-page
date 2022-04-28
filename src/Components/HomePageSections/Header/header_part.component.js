@@ -4,7 +4,7 @@ import 'antd/dist/antd.css';
 import './header_part.style.css';
 // Import Image from react bootstrap
 import { Image } from 'react-bootstrap';
-let HeaderImage = require('../../Images/header-image.png');
+let HeaderImage = require('../../../Images/header-image.png');
 export default function HeaderPart() {
     return (
         <>

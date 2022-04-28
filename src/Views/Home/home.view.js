@@ -2,8 +2,9 @@ import React from 'react';
 import Navb from "../../Components/Navbar/navbar";
 import { Layout } from 'antd';
 import 'antd/dist/antd.css';
-import HeaderPart from "../../Components/Header/header_part.component";
-import CardsView from '../../Components/CardsView/cards.view';
+import HeaderPart from "../../Components/HomePageSections/Header/header_part.component";
+import CardsView from '../../Components/HomePageSections/CardsView/cards.view';
+import AboutUsHome from '../../Components/HomePageSections/AboutUs/about.homepage.section';
 const { Content, Footer } = Layout;
 
 export default function Home() {
@@ -25,6 +26,10 @@ export default function Home() {
                     <br /> <br /> <br />
                     <div className='cards-view'>
                         <CardsView />
+                    </div>
+                    <br /> <br /> <br />
+                    <div className='about-us'>
+                        <AboutUsHome />
                     </div>
                 </Content>
                 <Footer
