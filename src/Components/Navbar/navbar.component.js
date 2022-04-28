@@ -1,3 +1,6 @@
+// Import react
+import * as React from "react";
+
 import { Menu } from 'antd';
 import 'antd/dist/antd.css';
 
