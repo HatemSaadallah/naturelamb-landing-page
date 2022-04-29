@@ -1,22 +1,43 @@
 import React from 'react';
 import Navb from "../../Components/Navbar/navbar";
+
+import { Layout } from 'antd';
+import 'antd/dist/antd.css';
+import HeaderPart from "../../Components/Header/header_part.component";
+import CardsView from '../../Components/CardsView/cards.view';
+const { Content, Footer } = Layout;
 import SmallCard from "../../Components/Card/card";
 
 export default function Home() {
     return (
         <div>
-            <Navb />
 
-            <SmallCard iconPath="/icons/heart.png" contentTitle="Trust" contentText={
-                `We are experts in our \n sector , we are always here to help and advise you.`
-            }
-            />
-
-            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-            <SmallCard iconPath="/icons/Icon-Support.png" contentTitle="Tradition and engagement" contentText={
-                `We are already the 5th generation taking care of our elders quality of life.`
-            }
-            />
+            {/* Change layout background color */}
+            <Layout style={{ backgroundColor: '#fff' }}>
+                <Navb />
+                <Content
+                    className="site-layout"
+                    style={{
+                        padding: '0 50px',
+                        marginTop: 64,
+                    }}
+                >
+                    {/* <div className="site-layout-background"> */}
+                    <HeaderPart />
+                    {/* </div> */}
+                    <br /> <br /> <br />
+                    <div className='cards-view'>
+                        <CardsView />
+                    </div>
+                </Content>
+                <Footer
+                    style={{
+                        textAlign: 'center',
+                        backgroundColor: '#fff',
+                    }}
+                >
+                </Footer>
+            </Layout>
         </div>
     );
 }
