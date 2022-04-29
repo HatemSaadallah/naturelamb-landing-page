@@ -16,6 +16,7 @@ function renderCards(cardsInfo) {
                     contentTitle={cardsInfo[i].contentTitle}
                     contentText={cardsInfo[i].contentText}
                     className="card-services"
+                    margin="0 auto"
                 />
             </Col>
         );
@@ -34,7 +35,7 @@ export default function ServicesHome() {
             </p>
             <div className='services-cards'>
                 <Container>
-                    <Row>
+                    <Row className='service-row'>
                         {renderCards(CardsInfo)}
                     </Row>
                 </Container>

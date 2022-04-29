@@ -8,11 +8,15 @@
 }
 
 .services-cards {
-    width: 60%;
+    width: 100%;
     margin: 0 auto;
 }
 
 .card-services {
     margin: 0 auto;
     width: 100%;
+}
+
+.service-row {
+    margin: 0 auto;
 }
