@@ -9,6 +9,7 @@ import CardsView from '../../Components/HomePageSections/CardsView/cards.view';
 import AboutUsHome from '../../Components/HomePageSections/AboutUs/about.homepage.section';
 import ProductsHome from '../../Components/HomePageSections/Products/products.homepage.section';
 import ServicesHome from '../../Components/HomePageSections/Services/services.homepage.section';
+import QualityHome from '../../Components/HomePageSections/QualityPolicy/quality.homepage.section';
 const { Content, Footer } = Layout;
 
 export default function Home() {
@@ -43,6 +44,10 @@ export default function Home() {
                     <br /> <br /> <br />
                     <div className='services-home'>
                         <ServicesHome />
+                    </div>
+                    <br /> <br /> <br />
+                    <div className='quality-home'>
+                        <QualityHome />
                     </div>
                 </Content>
                 <Footer
