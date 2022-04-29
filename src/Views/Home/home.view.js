@@ -7,6 +7,8 @@ import './home.style.css';
 import HeaderPart from "../../Components/HomePageSections/Header/header_part.component";
 import CardsView from '../../Components/HomePageSections/CardsView/cards.view';
 import AboutUsHome from '../../Components/HomePageSections/AboutUs/about.homepage.section';
+import ProductsHome from '../../Components/HomePageSections/Products/products.homepage.section';
+import ServicesHome from '../../Components/HomePageSections/Services/services.homepage.section';
 const { Content, Footer } = Layout;
 
 export default function Home() {
@@ -33,6 +35,14 @@ export default function Home() {
                     <br /> <br /> <br />
                     <div className='about-us'>
                         <AboutUsHome />
+                    </div>
+                    <br /> <br /> <br />
+                    <div className='products-home'>
+                        <ProductsHome />
+                    </div>
+                    <br /> <br /> <br />
+                    <div className='services-home'>
+                        <ServicesHome />
                     </div>
                 </Content>
                 <Footer
