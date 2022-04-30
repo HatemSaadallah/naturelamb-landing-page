@@ -1,6 +1,6 @@
 import React from 'react';
 import Navb from "../../Components/Navbar/navbar";
-import BottomNav from '../../Components/ButtomNavbar/bottomNav';
+import ButtomNav from '../../Components/ButtomNavbar/buttomNav';
 import classes from "./contact.style.css";
 import {Card,Form,Button} from 'react-bootstrap'
 import { CardImg } from 'react-bootstrap';
@@ -8,7 +8,7 @@ import { CardImg } from 'react-bootstrap';
 export default function Contact() {
     return (
         <div>
-            <Navb />
+            <Navb imagePath="/icons/logo.png" />
 
             <div className='card1'>
 
@@ -71,7 +71,7 @@ export default function Contact() {
             </div>
 
            
-            <BottomNav />
+            <ButtomNav />
         </div>
     );
 }
