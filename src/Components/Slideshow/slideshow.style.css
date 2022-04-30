@@ -1,0 +1,19 @@
+.slideshow-info {
+    display: inline-block;
+}
+/* .slideshow-title h2 {
+    display: inline-block;
+    
+} */
+
+.slide-show {
+    height: 60em;
+    margin: 0 auto;
+    margin-top: 5em;
+}
+
+.color-available {
+    font-family: 'Cairo';
+    transform: rotate(270deg);
+    height: auto;
+}

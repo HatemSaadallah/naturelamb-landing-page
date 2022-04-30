@@ -1,6 +1,6 @@
 import React from 'react';
 import Navb from "../../Components/Navbar/navbar";
-import ButtomNav from '../../Components/ButtomNavbar/buttomNav';
+import BottomNav from '../../Components/ButtomNavbar/bottomNav';
 import classes from "./contact.style.css";
 import {Card,Form,Button} from 'react-bootstrap'
 import { CardImg } from 'react-bootstrap';
@@ -71,7 +71,7 @@ export default function Contact() {
             </div>
 
            
-            <ButtomNav />
+            <BottomNav />
         </div>
     );
 }
