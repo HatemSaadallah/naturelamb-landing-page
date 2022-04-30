@@ -1,0 +1,18 @@
+.Nb{
+    z-index: 10000;
+    background-color: white;
+    margin-top: 59px;
+
+}
+
+.Navbar.Brand{
+    margin-left: 2%;
+}
+
+body{
+    background-color: #777;
+}
+
+.nava{
+    margin-right: 74px;
+}

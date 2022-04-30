@@ -1,0 +1,30 @@
+.q-letter {
+    font-size: 5em;
+    font-weight: bold;
+    color: rgba(10, 117, 0, 0.795);
+    margin-bottom: 1rem;
+}
+.quality-policy-word {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.quality-container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.left-text-quality {
+    font-size: 1.5em;
+    width: 40%;
+    display: inline-block;
+    text-decoration: underline;
+}
+
+.right-text-quality {
+    font-size: 15px;
+    width: 40%;
+    display: inline-block;
+    /* Make color a little gray */
+    color: rgba(68, 68, 68, 0.795);
+}

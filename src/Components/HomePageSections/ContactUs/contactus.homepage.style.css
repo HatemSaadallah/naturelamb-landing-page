@@ -1,0 +1,31 @@
+.contactus-home-background {
+    /* make a gradient background */
+    background: rgb(56, 177, 46);
+    background: -moz-linear-gradient(90deg, rgba(56, 177, 46, 1) 0%, rgba(9, 107, 121, 1) 21%, rgba(128, 0, 255, 1) 59%);
+    background: -webkit-linear-gradient(90deg, rgba(56, 177, 46, 1) 0%, rgba(9, 107, 121, 1) 21%, rgba(128, 0, 255, 1) 59%);
+    background: linear-gradient(90deg, rgba(56, 177, 46, 1) 0%, rgba(9, 107, 121, 1) 21%, rgba(128, 0, 255, 1) 59%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#38b12e", endColorstr="#8000ff", GradientType=1);
+    height: 25em;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactus-home {
+    /* Make blackish background color */
+    background-color: rgba(0, 0, 0, 0.795);
+    width: 40%;
+    height: 70%;
+    margin-top: auto;
+    margin: auto auto 0 auto;
+}
+
+.white-aboutus-home {
+    color: white;
+    text-align: center;
+}
+
+.contactus-home-button {
+    margin: 0 auto;
+    display: block;
+}

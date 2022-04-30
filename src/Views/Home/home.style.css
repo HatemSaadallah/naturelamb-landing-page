@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+}
+.site-layout-background {
+    padding: 24;
+    min-height: 380px;
+}
+
+.cards-view {
+    margin-top: 9em;
+}
+
+.home-page-layout {
+    background-color: white;
+    width: 100%;
+    margin: 0 auto;
+}

@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap');
+
+
+.card1{
+    height: 350px;
+    margin-top: 147px;
+    align-self: center;
+    align-items: center;
+    justify-content: space-evenly;
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 100.8px;
+}
+
+.add{
+    font-family: CircularStd-Book;
+    font-size: 18px;
+    color: rgb(134, 133, 133);
+    align-items: center;
+    justify-content: center;
+}
+
+.hes{
+    font-family: CircularStd-Medium;
+    font-size: 42px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    
+}
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    
+}
+
+.but-dev{
+    margin-top: 30px;
+    align-self: center;
+    align-items: center;
+    display:flex;
+    height: 600px;
+}
+
+Form{
+    background-color:#2F2F2F;
+    height:100%;
+    width:calc(100%/2);
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 60px;
+}
+
+.email{
+    margin-top: 82px;
+}
+
+.email,.subject,.message{
+    border-radius: 0;
+    padding: 15px 0px 10px;
+    height: auto;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    background-color: transparent;
+    margin-bottom: 20px;
+    font-size: 15px;
+    width: 585px;
+}
+
+.email:focus,
+.subject:focus,
+.message:focus {
+    border: none;
+    background-color: transparent;
+    color: #fff;
+}
+
+.email::-webkit-input-placeholder,
+.subject::-webkit-input-placeholder,
+.message::-webkit-input-placeholder{
+    color: #fff;
+    font-size: 18px;
+} 
+
+.message{
+    resize: none;
+}
+
+.butt{
+    background-color: #2F2F2F;
+    border: 2px solid white;
+    font-size: 20px;
+    color: white;
+    width: 193px;
+    height: 55px;
+    margin-top: 52px;
+}
+
+.butt:active,.butt:hover{
+    background-color: transparent;
+    border: 2px solid #fff;
+
+}
