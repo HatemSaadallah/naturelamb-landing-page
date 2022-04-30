@@ -17,7 +17,7 @@ export default function Home() {
     return (
         
         <div>
-            <Navb />
+            <Navb imagePath="/icons/logo.png" />
             {/* Change layout background color */}
             <Layout className="home-page-layout">
                 
