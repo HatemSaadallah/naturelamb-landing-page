@@ -1,7 +1,7 @@
 // import use state
 import React, { useState } from 'react';
 import  { Carousel, Button, Col, Row, Container } from 'react-bootstrap';
-import { slideshowdata } from './slideshow.data';
+import { slideshowdata } from '../../data/slideshow.data';
 import './slideshow.style.css'
 
 export default function Slideshow() {
