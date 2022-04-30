@@ -1,6 +1,5 @@
 .Nb{
     z-index: 10000;
-    background-color: white;
     margin-top: 59px;
 
 }
@@ -15,4 +14,7 @@ body{
 
 .nava{
     margin-right: 74px;
+}
+#basic-nav-dropdown{
+    color: white;
 }

@@ -1,5 +1,6 @@
 import React from 'react';
 import Navb from "../../Components/Navbar/navbar";
+import ButtomNav from '../../Components/ButtomNavbar/buttomNav';
 import { Layout } from 'antd';
 import 'antd/dist/antd.css';
 import './home.style.css';
@@ -64,6 +65,7 @@ export default function Home() {
                 >
                 </Footer>
             </Layout>
+            <ButtomNav />
         </div>
     );
 }
