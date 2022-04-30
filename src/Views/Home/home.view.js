@@ -14,11 +14,12 @@ const { Content, Footer } = Layout;
 
 export default function Home() {
     return (
+        
         <div>
-
+            <Navb />
             {/* Change layout background color */}
             <Layout className="home-page-layout">
-                <Navb />
+                
                 <Content
                     className="site-layout"
                     style={{

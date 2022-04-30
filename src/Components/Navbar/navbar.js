@@ -1,12 +1,12 @@
 import {Container, Nav, Navbar, NavDropdown} from "react-bootstrap";
 import React from 'react';
-
+import classes from "./navbar.style.css";
 
 export default function Navb(){
     return(
             <Navbar >
-                <Container>
-                    <Navbar.Brand href="#home">
+                <Container className="Nb">
+                    <Navbar.Brand href="#home" style={{marginLeft:'85px'}}>
                         <img
                             src="/icons/logo.png"
                             width="142.38"
