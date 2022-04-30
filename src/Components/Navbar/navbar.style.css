@@ -1,12 +1,18 @@
 .Nb{
-    overflow: hidden;
-    position: fixed; 
-    top: 0; 
-    width: 100%;
     z-index: 10000;
     background-color: white;
+    margin-top: 59px;
+
 }
 
 .Navbar.Brand{
     margin-left: 2%;
+}
+
+body{
+    background-color: #777;
+}
+
+.nava{
+    margin-right: 74px;
 }

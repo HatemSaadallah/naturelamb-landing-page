@@ -1,15 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap');
 
 
 .card1{
     height: 350px;
-    margin-top: 6%;
+    margin-top: 147px;
     align-self: center;
     align-items: center;
     justify-content: space-evenly;
     display:flex;
     flex-direction: column;
-    
+    margin-bottom: 100.8px;
 }
 
 .add{
@@ -18,8 +18,6 @@
     color: rgb(134, 133, 133);
     align-items: center;
     justify-content: center;
-    
-    
 }
 
 .hes{

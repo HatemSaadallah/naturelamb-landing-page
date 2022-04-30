@@ -4,8 +4,7 @@ import classes from "./navbar.style.css";
 
 export default function Navb(){
     return(
-            <Navbar >
-                <Container className="Nb">
+            <Navbar className="Nb">
                     <Navbar.Brand href="#home" style={{marginLeft:'85px'}}>
                         <img
                             src="/icons/logo.png"
@@ -17,7 +16,7 @@ export default function Navb(){
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
-                        <Nav>
+                        <Nav className="nava" >
                             <Nav.Link style={{paddingLeft:20,paddingRight:20}} href="#home">Home</Nav.Link>
                             <Nav.Link style={{paddingLeft:20,paddingRight:20}} href="#link">Product</Nav.Link>
                             <Nav.Link style={{paddingLeft:20,paddingRight:20}} href="#link">About us</Nav.Link>
@@ -30,7 +29,6 @@ export default function Navb(){
                             </NavDropdown>
                         </Nav>
                     </Navbar.Collapse>
-                </Container>
             </Navbar>
     );
 
