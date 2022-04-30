@@ -14,7 +14,4 @@ export default function BottomNav(){
                     <Nav.Link  className="cp">&copy; 2022 copyright </Nav.Link> 
             </Navbar>
     );
-
-
-
 }
