@@ -1,6 +1,6 @@
 import React from 'react';
 import Navb from "../../Components/Navbar/navbar";
-import BottomNav from '../../Components/ButtomNavbar/bottomNav';
+import BottomNav from '../../Components/BottomNavbar/bottomNav';
 import classes from "./contact.style.css";
 import {Card,Form,Button} from 'react-bootstrap'
 import { CardImg } from 'react-bootstrap';
