@@ -1,9 +1,8 @@
 import {Container, Nav, Navbar, NavDropdown} from "react-bootstrap";
 import React from 'react';
-import classes from "./buttomNav.style.css";
+import './buttomNav.style.css';
 
-
-export default function ButtomNav(){
+export default function BottomNav(){
     return(
             <Navbar className="Na" >
                     <img className="ima" src="/images/main.png" alt="logo"/>
@@ -15,7 +14,4 @@ export default function ButtomNav(){
                     <Nav.Link  className="cp">&copy; 2022 copyright </Nav.Link> 
             </Navbar>
     );
-
-
-
 }

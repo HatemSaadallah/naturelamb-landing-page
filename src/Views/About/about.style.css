@@ -1,0 +1,41 @@
+body{
+    width: 100vw;
+}
+.heade{
+    height: 543px;
+    background-image: url("/images/aboutUs/headp.png");
+}
+.Nb{
+    margin: 0;
+    padding-top: 20px
+}
+center{
+    display: inline-block;
+}
+.heading{
+    color: white;
+    position:relative;
+    left: 45%;
+    top: 25%;
+}
+.sha{
+    width: 330px;
+    height: 330px;
+    margin-left: -170px;
+}
+
+.dots{
+    width: 337px;
+    height: 249px;
+    margin-left: 1375px;
+    margin-top: -74px;
+}
+.char1{
+    width: 597px;
+    height: 779px;
+    margin-left: 192px;
+    margin-top: 70px;
+}
+.subHeading1{
+    display: inline-block;
+}

@@ -8,7 +8,7 @@ import { CardImg } from 'react-bootstrap';
 export default function Contact() {
     return (
         <div>
-            <Navb />
+            <Navb imagePath="/icons/logo.png" />
 
             <div className='card1'>
 
