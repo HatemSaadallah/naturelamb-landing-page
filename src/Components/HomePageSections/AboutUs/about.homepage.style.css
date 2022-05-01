@@ -1,5 +1,29 @@
 .info-sec {
     width: 70%;
-    /* make font a little gray */
     color: #8c8c8c;
+    line-height: 3;
+    font-size: 15px;
+    font-family: 'Cairo';
+}
+
+.about-bg-image {
+    width: 60%;
+}
+
+.about-us-home-button {
+    margin-top: 2em;
+    width: 9em;
+    height: 3em;
+    border-radius: 0;
+    background-color: green;
+}
+
+.about-us-home-word {
+    /* make capital */
+    text-transform: uppercase;
+    color: green;
+}
+
+.about-us-home-title {
+    font-family: 'Cairo';
 }

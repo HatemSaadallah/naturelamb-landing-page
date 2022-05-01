@@ -7,7 +7,7 @@ export default function ProductsHome() {
         <>
             <Row>
                 <Col span={13}>
-
+                    
                 </Col>
                 <Col span={11}>
                     <p>Products</p>
