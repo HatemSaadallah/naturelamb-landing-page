@@ -1,6 +1,5 @@
 import React from 'react';
 import Navb from "../../Components/Navbar/navbar";
-import ButtomNav from '../../Components/ButtomNavbar/buttomNav';
 import { Layout } from 'antd';
 import 'antd/dist/antd.css';
 import './home.style.css';
@@ -20,7 +19,6 @@ export default function Home() {
         <div>
             <Navb imagePath="/icons/logo.png" />
             <div className='stupid-color'></div>
-            <Navb />
             {/* Change layout background color */}
             <Layout className="home-page-layout">
                 
@@ -59,7 +57,6 @@ export default function Home() {
                 </Content>
                 <BottomNav />
             </Layout>
-            <ButtomNav />
         </div>
     );
 }

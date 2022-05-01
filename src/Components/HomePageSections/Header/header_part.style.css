@@ -41,10 +41,9 @@ div .ant-image {
     text-decoration: none;
     transition: all 0.3s ease 0s;
 }
-.div-welcome-text span {
+.see-live-demo {
     padding-left: 3em;
 }
-
 .image-div {
     background-color: #c5f7de;
     position: relative;

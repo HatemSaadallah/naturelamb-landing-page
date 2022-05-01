@@ -7,6 +7,7 @@ export default function ProductDetails(props) {
     return (
         <div>
             <Navb />
+            {id}
         </div>
     );
 }

@@ -19,7 +19,7 @@ export default function HeaderPart() {
                         <Button type="primary" shape="round" size='large' className='contact-button-home'>
                             {'Contact us>'}
                         </Button>
-                        <span>See live demo <BiRightArrowCircle /></span>
+                        <span className='see-live-demo'>See live demo <BiRightArrowCircle /></span>
                         
                     </div>
                 </Col>

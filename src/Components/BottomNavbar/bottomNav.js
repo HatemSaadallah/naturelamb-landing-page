@@ -1,6 +1,6 @@
-import {Container, Nav, Navbar, NavDropdown} from "react-bootstrap";
+import { Nav, Navbar } from "react-bootstrap";
 import React from 'react';
-import './buttomNav.style.css';
+import './bottomNav.style.css';
 
 export default function BottomNav(){
     return(

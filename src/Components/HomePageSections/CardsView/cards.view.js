@@ -1,4 +1,3 @@
-// import react
 import * as React from "react";
 import { Row, Col } from 'antd';
 import SmallCard from "../Card/card";
@@ -42,8 +41,9 @@ export default function CardsView() {
                         />
                     </div>
                 </Col>
-                <Col span={12}>
+                <Col className="features-left-col" span={12}>
                     <ExploreFeatures />
+                    <img src="images/home/Ellipse8.png" alt=""/>
                 </Col>
             </Row>
         </>

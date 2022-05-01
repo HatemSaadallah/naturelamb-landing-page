@@ -6,7 +6,7 @@ import Contact from "./Views/Contactus/contact.view";
 import Products from "./Views/Products/products.view";
 import ProductDetails from "./Views/ProductDetails/product-details.view";
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import './index.css'
 export default function App() {
   return (
     <div>

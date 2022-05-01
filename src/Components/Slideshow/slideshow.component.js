@@ -1,4 +1,3 @@
-// import use state
 import React, { useState } from 'react';
 import  { Carousel, Button, Col, Row, Container } from 'react-bootstrap';
 import { slideshowdata } from '../../data/slideshow.data';
@@ -38,6 +37,7 @@ export default function Slideshow() {
                             <Col sm={4}>
                                 <img 
                                     src='images/products/circles/circle1.png'
+                                    alt='circle1'
                                 />
                             </Col>
                         </Row>    
