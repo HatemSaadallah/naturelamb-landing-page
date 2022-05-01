@@ -7,11 +7,21 @@
 }
 
 .cards-view {
-    margin-top: 9em;
+    width: 90%;
+    margin: 9em auto 0 auto;
 }
 
 .home-page-layout {
     background-color: white;
     width: 100%;
     margin: 0 auto;
+}
+
+.stupid-color {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50%;
+    height: 15em;
+    background-color: #c5f7de;
 }

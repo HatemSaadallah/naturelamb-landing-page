@@ -39,3 +39,8 @@ center{
 .subHeading1{
     display: inline-block;
 }
+
+.about-us {
+    width: 90%;
+    margin: 9em auto 0 auto;
+}

@@ -11,26 +11,26 @@ import ProductsHome from '../../Components/HomePageSections/Products/products.ho
 import ServicesHome from '../../Components/HomePageSections/Services/services.homepage.section';
 import QualityHome from '../../Components/HomePageSections/QualityPolicy/quality.homepage.section';
 import ContactUsHome from '../../Components/HomePageSections/ContactUs/contactus.homepage.section';
-const { Content, Footer } = Layout;
+import BottomNav from '../../Components/BottomNavbar/bottomNav';
+const { Content } = Layout;
 
 export default function Home() {
     return (
         
         <div>
             <Navb imagePath="/icons/logo.png" />
+            <div className='stupid-color'></div>
+            <Navb />
             {/* Change layout background color */}
             <Layout className="home-page-layout">
                 
                 <Content
                     className="site-layout"
                     style={{
-                        padding: '0 50px',
                         marginTop: 64,
                     }}
                 >
-                    {/* <div className="site-layout-background"> */}
                     <HeaderPart />
-                    {/* </div> */}
                     <br /> <br /> <br />
                     <div className='cards-view'>
                         <CardsView />
@@ -57,13 +57,7 @@ export default function Home() {
                     </div>
                     
                 </Content>
-                <Footer
-                    style={{
-                        textAlign: 'center',
-                        backgroundColor: '#fff',
-                    }}
-                >
-                </Footer>
+                <BottomNav />
             </Layout>
             <ButtomNav />
         </div>

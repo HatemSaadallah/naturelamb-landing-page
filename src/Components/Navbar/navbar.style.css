@@ -1,7 +1,7 @@
 .Nb{
     z-index: 10000;
-    margin-top: 59px;
-
+    background-color: transparent;
+    margin-top: 30px;
 }
 
 .Navbar.Brand{
