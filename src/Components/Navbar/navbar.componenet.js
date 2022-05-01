@@ -25,7 +25,6 @@ export default function Navbar() {
             <Content
                 className="site-layout"
                 style={{
-                    padding: '0 50px',
                     marginTop: 64,
                 }}
             >

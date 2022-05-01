@@ -10,6 +10,7 @@ import ProductsHome from '../../Components/HomePageSections/Products/products.ho
 import ServicesHome from '../../Components/HomePageSections/Services/services.homepage.section';
 import QualityHome from '../../Components/HomePageSections/QualityPolicy/quality.homepage.section';
 import ContactUsHome from '../../Components/HomePageSections/ContactUs/contactus.homepage.section';
+import BottomNav from '../../Components/BottomNavbar/bottomNav';
 const { Content, Footer } = Layout;
 
 export default function Home() {
@@ -23,7 +24,6 @@ export default function Home() {
                 <Content
                     className="site-layout"
                     style={{
-                        padding: '0 50px',
                         marginTop: 64,
                     }}
                 >
@@ -56,13 +56,7 @@ export default function Home() {
                     </div>
                     
                 </Content>
-                <Footer
-                    style={{
-                        textAlign: 'center',
-                        backgroundColor: '#fff',
-                    }}
-                >
-                </Footer>
+                <BottomNav />
             </Layout>
         </div>
     );

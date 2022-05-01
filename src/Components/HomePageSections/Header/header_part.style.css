@@ -4,16 +4,19 @@ div .ant-image {
 }
 
 .welcome-text {
-    font-size: 3em;
-    font-weight: bold;
+    font-size: 50px;
+    font-family: 'Cairo';
+    font-weight: semi-bold;
     text-align: center;
     margin-top: 1rem;
     text-align: left;
 }
 
 .div-welcome-text {
-    margin-top: 1rem;
+    padding-top: 10em;
+    padding-left: 3em;
     width: 70%;
+
 }
 
 .header-image {
@@ -21,4 +24,37 @@ div .ant-image {
     height: 100%;
     margin: 0 auto;
     display: block;
+}
+
+.welcome-paragraph {
+    font-family: 'Cairo';
+    font-size: 22px;
+}
+.contact-button-home {
+    background-color: #F9BE1C;
+    border: 0px ;
+    height: 40px;
+    color: white;
+    font-size: 14px;
+    padding: 0 16px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+}
+.div-welcome-text span {
+    padding-left: 3em;
+}
+
+.image-div {
+    background-color: #c5f7de;
+    position: relative;
+}
+
+.image-div:before {
+    background-color:#c5f7de;
+    position: absolute;
+    height: 100%;
+    width: 4000px;
+    left: -2000px;
+    z-index: -1;
 }

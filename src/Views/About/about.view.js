@@ -1,6 +1,6 @@
 import React from 'react';
 import Navb from '../../Components/Navbar/navbar';
-
+import './about.style.css';
 export default function About() {
     return (
         <div>
