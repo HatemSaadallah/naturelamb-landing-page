@@ -11,12 +11,13 @@ import ServicesHome from '../../Components/HomePageSections/Services/services.ho
 import QualityHome from '../../Components/HomePageSections/QualityPolicy/quality.homepage.section';
 import ContactUsHome from '../../Components/HomePageSections/ContactUs/contactus.homepage.section';
 import BottomNav from '../../Components/BottomNavbar/bottomNav';
-const { Content, Footer } = Layout;
+const { Content } = Layout;
 
 export default function Home() {
     return (
         
         <div>
+            <div className='stupid-color'></div>
             <Navb />
             {/* Change layout background color */}
             <Layout className="home-page-layout">
@@ -27,9 +28,7 @@ export default function Home() {
                         marginTop: 64,
                     }}
                 >
-                    {/* <div className="site-layout-background"> */}
                     <HeaderPart />
-                    {/* </div> */}
                     <br /> <br /> <br />
                     <div className='cards-view'>
                         <CardsView />
