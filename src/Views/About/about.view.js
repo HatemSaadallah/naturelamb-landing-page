@@ -6,7 +6,7 @@ export default function About() {
   return (
     <div>
       <div className="heade">
-        <Navb imagePath="/images/aboutUs/ablogo.svg" />
+        <Navb imagePath="/images/aboutUs/ablogo.svg" selectedOption={2} />
         <h1 className="heading">About</h1>
         <br></br>
         <img

@@ -1,17 +1,19 @@
 .Nb{
-    z-index: 10000;
-    background-color: transparent;
-    margin-top: 30px;
+    margin: 0;
+    padding-top: 20px;
+    z-index: 1000000;
 }
 
 .Navbar.Brand{
     margin-left: 2%;
 }
 
-body{
-    background-color: #777;
-}
 
 .nava{
     margin-right: 74px;
+}
+
+.nlink {
+    margin-left: 20px;
+    margin-right: 20px;
 }

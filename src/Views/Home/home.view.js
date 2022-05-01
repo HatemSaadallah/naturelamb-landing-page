@@ -17,7 +17,7 @@ export default function Home() {
     return (
         
         <div>
-            <Navb imagePath="/icons/logo.png" />
+            <Navb imagePath="/icons/logo.png" selectedOption={0} />
             <div className='stupid-color'></div>
             {/* Change layout background color */}
             <Layout className="home-page-layout">

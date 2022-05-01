@@ -5,11 +5,7 @@ body{
     height: 543px;
     background-image: url("/images/aboutUs/headp.png");
 }
-.Nb{
-    margin: 0;
-    padding-top: 20px;
-    z-index: 1000000;
-}
+
 center{
     display: inline-block;
 }
@@ -44,4 +40,12 @@ center{
 .about-us {
     width: 90%;
     margin: 9em auto 0 auto;
+}
+
+.selected-button-navbar {
+    background-color: darkgreen;
+    border-radius: 35px;
+    color: white !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
 }

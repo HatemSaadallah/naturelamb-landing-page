@@ -1,5 +1,17 @@
+import * as React from 'react';
 import { Nav, Navbar, NavDropdown } from "react-bootstrap";
-import React from 'react';
+import './navbar.style.css';
+
+function navOptions(selectedOption){
+    return(
+        <>
+            <Nav.Link href="/" className={"nlink " + (selectedOption === 0 ? "selected-button-navbar" : "") }>Home</Nav.Link>
+            <Nav.Link href="/products" className={"nlink " + (selectedOption === 1 ? "selected-button-navbar" : "") }>Product</Nav.Link>
+            <Nav.Link href="/about" className={"nlink " + (selectedOption === 2 ? "selected-button-navbar" : "") } >About us</Nav.Link>
+            <Nav.Link className={"nlink " + (selectedOption === 3 ? "selected-button-navbar" : "") }  href="/contact">Contact us</Nav.Link>
+        </>
+    )
+}
 
 export default function Navb(props){
     return(
@@ -15,17 +27,14 @@ export default function Navb(props){
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
-                        <Nav className="nava" >
-                            <Nav.Link style={{paddingLeft:20,paddingRight:20}} href="/" className="nlink">Home</Nav.Link>
-                            <Nav.Link style={{paddingLeft:20,paddingRight:20}} href="/products" className="nlink">Product</Nav.Link>
-                            <Nav.Link style={{paddingLeft:20,paddingRight:20}} href="/about" className="nlink" >About us</Nav.Link>
-                            <Nav.Link style={{backgroundColor:"darkgreen",borderRadius:35,paddingLeft:20,paddingRight:20,color:"white"}} href="/contact">Contact us</Nav.Link>
-                            <Nav.Link style={{paddingLeft:80,paddingRight:20}} href="#link">(929)953-8315</Nav.Link>
-                            <NavDropdown title="EN" id="basic-nav-dropdown" style={{color:'white'}}>
-                                <NavDropdown.Item href="#action/3.1">RU</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.2">FR</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.3">AR</NavDropdown.Item>
-                            </NavDropdown>
+                    <Nav className="nava">
+                        {navOptions(props.selectedOption)}
+                        <Nav.Link style={{paddingLeft:80,paddingRight:20}} href="#link">(929)953-8315</Nav.Link>
+                        <NavDropdown title="EN" id="basic-nav-dropdown" style={{color:'white'}}>
+                            <NavDropdown.Item href="#action/3.1">RU</NavDropdown.Item>
+                            <NavDropdown.Item href="#action/3.2">FR</NavDropdown.Item>
+                            <NavDropdown.Item href="#action/3.3">AR</NavDropdown.Item>
+                        </NavDropdown>
                             
                         </Nav>
                     </Navbar.Collapse>

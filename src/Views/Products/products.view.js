@@ -6,7 +6,7 @@ import BottomNav from '../../Components/BottomNavbar/bottomNav';
 export default function Products() {
     return (
         <>
-            <Navb />
+            <Navb imagePath="/icons/logo.png" selectedOption={1}/>
             <Slideshow />
             <ContactUsHome />
             <BottomNav />
