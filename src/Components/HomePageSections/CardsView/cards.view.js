@@ -6,7 +6,7 @@ import ExploreFeatures from "../ExploreFeatures/explorefeature.view";
 import './cardsview.style.css';
 export default function CardsView() {
     return (
-        <>
+        <div className="features-home-section">
             <Row>
                 {/* Add two equal Cols */}
                 <Col span={12}>
@@ -46,6 +46,6 @@ export default function CardsView() {
                     <img src="images/home/Ellipse8.png" alt=""/>
                 </Col>
             </Row>
-        </>
+        </div>
     );
 }
