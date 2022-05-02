@@ -63,7 +63,7 @@ export default function About() {
         
       </section>
 
-      {/* <BottomNav /> */}
+      <BottomNav />
     </div>
   );
 }
