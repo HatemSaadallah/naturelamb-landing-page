@@ -5,12 +5,12 @@ import './navbar.style.css';
 function navOptions(selectedOption,color){
     return(
         <>
-            <Nav.Link style={{color:color}} href="/"  className={"nlink " + (selectedOption === 0 ? "selected-button-navbar" : "") }>Home</Nav.Link>
-            <Nav.Link style={{color:color}} href="/products" className={"nlink " + (selectedOption === 1 ? "selected-button-navbar" : "") }>Product</Nav.Link>
-            <Nav.Link style={{color:color}} href="/about" className={"nlink " + (selectedOption === 2 ? "selected-button-navbar" : "") } >About us</Nav.Link>
-            <Nav.Link style={{color:color}} className={"nlink " + (selectedOption === 3 ? "selected-button-navbar" : "") }  href="/contact">Contact us</Nav.Link>
+            <Nav.Link style={{color:color}} href="/"  className={"nlink " + (selectedOption === 0 ? "selected-button-navbar wh" : "") }>Home</Nav.Link>
+            <Nav.Link style={{color:color}} href="/products" className={"nlink " + (selectedOption === 1 ? "selected-button-navbar wh" : "") }>Product</Nav.Link>
+            <Nav.Link style={{color:color}} href="/about" className={"nlink " + (selectedOption === 2 ? "selected-button-navbar bg-white abo" : "") } >About us</Nav.Link>
+            <Nav.Link style={{color:color}} href="/contact" className={"nlink " + (selectedOption === 3 ? "selected-button-navbar wh" : "") }  >Contact us</Nav.Link>
         </>
-    )
+    ) 
 }
 
 export default function Navb(props){
