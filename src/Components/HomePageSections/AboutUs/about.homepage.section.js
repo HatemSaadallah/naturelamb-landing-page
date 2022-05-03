@@ -23,7 +23,7 @@ export default function AboutUsHome() {
 
                 </Col>
                 <Col span={13}>
-                    <img className="about-bg-image" src="/images/home/Path12.png" />
+                    <img className="about-bg-image" src="/images/home/Path12.png" alt='' />
                 </Col>
             </Row>
         </>
