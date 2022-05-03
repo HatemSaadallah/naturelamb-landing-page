@@ -10,9 +10,13 @@
     width: 100%;
     
 }
-
 .features-home-section {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     margin-top: 2em;
+}
+
+.semi-circle-home {
+    position: absolute;
+    right: 0;
 }
