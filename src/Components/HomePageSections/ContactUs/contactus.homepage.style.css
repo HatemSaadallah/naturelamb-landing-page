@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap');
 .contactus-home-background {
     /* make a gradient background */
     background: rgb(56, 177, 46);
@@ -20,12 +21,21 @@
     margin: auto auto 0 auto;
 }
 
-.white-aboutus-home {
+
+.first-aboutus-home {
     color: white;
     text-align: center;
+    margin-top: 65px;
+    font-family:'Cairo', sans-serif ;
 }
-
+.second-aboutus-home {
+    color: white;
+    text-align: center;
+    font-family:'Cairo', sans-serif ;
+}
 .contactus-home-button {
     margin: 0 auto;
     display: block;
+    border-radius: 35px;
+    width: 140px;
 }
