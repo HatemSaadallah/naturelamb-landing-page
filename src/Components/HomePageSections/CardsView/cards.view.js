@@ -17,25 +17,25 @@ export default function CardsView() {
                         />
                     </div>
                     <div className="small-card-div left">
-                        <SmallCard iconPath="/icons/Icon-Support.png" contentTitle="Tradition and engagement" contentText={
+                        <SmallCard float="right" iconPath="/icons/Icon-Support.png" contentTitle="Tradition and engagement" contentText={
                             `We are already the 5th generation taking care of our elder' quality of life`
                         }
                         />
                     </div>
-                    <div className="small-card-div left">
+                    <div className="small-card-div right">
                         <SmallCard float='right' iconPath="/icons/shield.png" contentTitle="Safety" contentText={
                             `We are already the 5th generation taking care of our elder' quality of life`
                         }
                         />
                     </div>
                     <div className="small-card-div left">
-                        <SmallCard iconPath="/icons/achivment.png" contentTitle="Quality" contentText={
+                        <SmallCard float="right" iconPath="/icons/achivment.png" contentTitle="Quality" contentText={
                             `We are already the 5th generation taking care of our elder' quality of life`
                         }
                         />
                     </div>
-                    <div className="small-card-div left">
-                        <SmallCard float='right' iconPath="/icons/diamond.png" contentTitle="Involvement" contentText={
+                    <div className="small-card-div right">
+                        <SmallCard float="right" iconPath="/icons/diamond.png" contentTitle="Involvement" contentText={
                             `We are already the 5th generation taking care of our elder' quality of life`
                         }
                         />
