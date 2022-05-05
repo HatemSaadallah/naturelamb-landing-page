@@ -16,7 +16,7 @@ export default function HeaderPart() {
                         <h1 className='welcome-text'>At Naturlamb 1880 we are committed to improving your quality of life</h1>
                         <p className='welcome-paragraph'>therefore with our new range of Sports Orthopedics, we help you recover from injuries and regain mobility as quickly as possible.</p>
                         {/* change color */}
-                        <Button type="primary" shape="round" size='large' className='contact-button-home'>
+                        <Button type="primary" shape="round" size='large' className='contact-button-home' href='/contact'>
                             {'Contact us>'}
                         </Button>
                         <span className='see-live-demo'>See live demo <BiRightArrowCircle /></span>

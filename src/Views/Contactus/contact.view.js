@@ -1,6 +1,8 @@
 import React from 'react';
 import Navb from "../../Components/Navbar/navbar";
+import classes from "./contact.style.css";
 import {Card,Form,Button} from 'react-bootstrap'
+import { CardImg } from 'react-bootstrap';
 
 export default function Contact() {
     return (
