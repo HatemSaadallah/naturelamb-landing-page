@@ -13,4 +13,4 @@ jobs:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: "naturelamb-landing-page"
           heroku_email: "saadallah.r.hatem@gmail.com"
-          usedocker: true
+          usedocker: false
