@@ -6,10 +6,10 @@ export default function ProductsHome() {
     return (
         <>
             <Row>
-                <Col span={13}>
+                <Col span={12}>
                     
                 </Col>
-                <Col span={11}>
+                <Col span={12}>
                     <p>Products</p>
                     <h1>Canes & Walking Sticks</h1>
                     <p className='products-text'>

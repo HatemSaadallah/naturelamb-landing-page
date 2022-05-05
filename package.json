@@ -2,7 +2,6 @@
   "name": "naturelamb-landing-page",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://hatemsaadallah.github.io/naturelamb-landing-page",
   "dependencies": {
     "@fontsource/cairo": "^4.5.9",
     "@testing-library/jest-dom": "^5.16.4",
