@@ -14,13 +14,10 @@
     "react-bootstrap": "^2.3.0",
     "react-dom": "^18.1.0",
     "react-icons": "^4.3.1",
-    "react-redux": "^8.0.1",
     "react-router-dom": "^6.3.0",
     "react-scripts": "^2.1.3",
     "react-spring": "^9.4.4",
-    "save-dev": "^0.0.1-security",
-    "typeface-cairo": "^1.1.13",
-    "web-vitals": "^2.1.4"
+    "save-dev": "^0.0.1-security"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -39,8 +36,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^3.2.3"
   }
 }
