@@ -7,7 +7,7 @@
 }
 
 .small-card-div {
-    width: 70%;
+    width: 50%;
     
 }
 .features-home-section {
@@ -19,4 +19,44 @@
 .semi-circle-home {
     position: absolute;
     right: 0;
+}
+.special-card-home-div {
+    margin-top: 13em;
+}
+
+.path-image-bg-cards-home {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    right: 10%;
+    width: 100%;
+    filter: invert(2%) sepia(18%) saturate(299%) hue-rotate(88deg) brightness(101%) contrast(98%);
+    /* Rotate */
+    transform: rotate(1deg);
+}
+
+.plus-icon {
+    position: absolute;
+    top: -5%;
+    left: 50%;
+}
+
+.small-square-icon {
+    position: absolute;
+    top: -7%;
+    right: 20%;
+}
+
+.small-circle-icon {
+    position: absolute;
+    width: 10px;
+    top: 10%;
+    right: -5%;
+    z-index: 100000;
+}
+
+.small-square-icon2 {
+    position: absolute;
+    top: 25%;
+    left: 10%;
 }
