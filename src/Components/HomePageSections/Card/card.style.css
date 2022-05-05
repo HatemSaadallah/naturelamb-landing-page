@@ -4,8 +4,23 @@
     font-family: Cairo, serif;
 }
 
-/* .single-card-home {
-    -webkit-box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.75);
-    box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.75);
-} */
+.card-image-home {
+    width: 85px;
+    height: 85px;
+    margin-left: 1em;
+
+}
+
+.card-text-home {
+    /* Make semi bold */
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 2em;
+}
+
+.single-card-home {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    opacity: 0.9;
+    padding: 1.5em;
+    margin-top: 5em;    
+}
