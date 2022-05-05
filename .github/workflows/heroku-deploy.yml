@@ -11,6 +11,6 @@ jobs:
       - uses: akhileshns/heroku-deploy@v3.0.0
         with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-          heroku_app_name: "your_app_name"
-          heroku_email: "your e-mail address associated with Heroku"
+          heroku_app_name: "naturelamb-landing-page"
+          heroku_email: "saadallah.r.hatem@gmail.com"
           usedocker: true
