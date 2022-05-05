@@ -10,13 +10,38 @@ export default function CardsView() {
             <Row>
                 {/* Add two equal Cols */}
                 <Col span={12}>
+                    <img 
+                        src="images/home/features-icons/plus.png"
+                        className="plus-icon"
+                        alt=""
+                    />
+                    <img 
+                        src="images/home/features-icons/stroke13.png"
+                        className="small-square-icon"
+                        alt=""
+                    />
+                    <img 
+                        src="images/home/features-icons/small-circle.png"
+                        className="small-circle-icon"
+                        alt=""
+                    />
+                    <img 
+                        src="images/home/features-icons/stroke12.png"
+                        className="small-square-icon2"
+                        alt=""
+                    />
+                    <img 
+                        src="images/home/Path66.png"
+                        className="path-image-bg-cards-home"
+                        alt=""
+                    />
                     <div className="small-card-div right">
                         <SmallCard float='right' iconPath="/icons/heart.png" contentTitle="Trust" contentText={
                             `We are experts in our \n sector , we are always here to help and advise you.`
                         }
                         />
                     </div>
-                    <div className="small-card-div left">
+                    <div className="small-card-div left special-card-home-div" >
                         <SmallCard float="right" iconPath="/icons/Icon-Support.png" contentTitle="Tradition and engagement" contentText={
                             `We are already the 5th generation taking care of our elder' quality of life`
                         }
