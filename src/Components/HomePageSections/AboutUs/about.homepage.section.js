@@ -7,7 +7,7 @@ export default function AboutUsHome() {
     return (
         <>
             <Row className="about-home-section">
-                <Col span={12}>
+                <Col span={12} className="about-us-home-section">
                     <p className="about-us-home-word">About us</p>
                     <h2 className="about-us-home-title">Naturlamb 1880 (history)</h2>
                     <p className='info-sec'>
@@ -25,6 +25,7 @@ export default function AboutUsHome() {
                 <Col span={12}>
                     <img className="about-bg-image" src="/images/home/Path12.png" alt='' />
                 </Col>
+                <img src='/images/home/about-us-icons/right.png' alt='' className='semi-circle-home'/>
             </Row>
         </>
     );

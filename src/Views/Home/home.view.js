@@ -34,7 +34,7 @@ export default function Home() {
                         <CardsView />
                     </div>
                     <br /> <br /> <br />
-                    <div className='about-us'>
+                    <div className='about-us-home'>
                         <AboutUsHome />
                     </div>
                     <br /> <br /> <br />
