@@ -39,5 +39,21 @@
     right: 0;
     bottom: -30%;
     /* Add opacity to image */
-    opacity: 0.5;
+    opacity: 0.3;
+}
+
+.hr-line-products {
+    width: 3000%;
+    z-index: 10000;
+    position: absolute;
+    opacity: 0.1;
+    left: -300em;
+
+}
+
+.semi-circle-products-left {
+    position: absolute;
+    left: 0;
+    bottom: -30%;
+    opacity: 0.3;
 }
