@@ -6,6 +6,7 @@ export default function ProductsHome() {
     return (
         <>
             <Row className="products-section">
+                <img src='/images/home/products-icons/left.png' alt='' className='semi-circle-products-left' />
                 <Col span={13}>
 
                 </Col>
@@ -17,11 +18,15 @@ export default function ProductsHome() {
                         history, we have a wide variety of colours, cuffs and materials.
                     </p>
                     <div className='products-image-person-home'>
-                        <img  src="/images/home/products-icons/person.png" alt='' />
+                        <img src="/images/home/products-icons/person.png" alt='' />
                         <span>Canes & Walking Sticks</span>
                     </div>
+                    <div>
+                        <img src='/images/home/products-icons/arrow.png' alt='' />
+                    </div>
+                    <hr className='hr-line-products' />
                 </Col>
-            <img src='/images/home/about-us-icons/right.png' alt='' className='semi-circle-products' />
+                <img src='/images/home/about-us-icons/right.png' alt='' className='semi-circle-products' />
             </Row>
         </>
     );
