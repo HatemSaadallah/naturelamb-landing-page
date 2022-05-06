@@ -67,7 +67,7 @@ export default function CardsView() {
                     </div>
                 </Col>
                 <Col className="features-left-col" span={12}>
-                    <img className="semi-circle-home" src="images/home/Ellipse8.png" alt="" />
+                    <img className="semi-circle-home-cards-view" src="images/home/Ellipse8.png" alt="" />
                     <ExploreFeatures />
                 </Col>
             </Row>
