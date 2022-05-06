@@ -25,7 +25,7 @@ export default function AboutUsHome() {
                 <Col span={12}>
                     <img className="about-bg-image" src="/images/home/Path12.png" alt='' />
                 </Col>
-                <img src='/images/home/about-us-icons/right.png' alt='' className='semi-circle-home'/>
+                <img src='/images/home/about-us-icons/right.png' alt='' className='semi-circle-home' />
             </Row>
         </>
     );

@@ -8,8 +8,9 @@
 
 .small-card-div {
     width: 50%;
-    
+
 }
+
 .features-home-section {
     width: 100%;
     margin: 0 auto;
@@ -20,6 +21,7 @@
     position: absolute;
     right: 0;
 }
+
 .special-card-home-div {
     margin-top: 13em;
 }

@@ -1,6 +1,6 @@
 div .ant-image {
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 .welcome-text {
@@ -30,9 +30,10 @@ div .ant-image {
     font-family: 'Cairo';
     font-size: 22px;
 }
+
 .contact-button-home {
     background-color: #F9BE1C;
-    border: 0px ;
+    border: 0px;
     height: 40px;
     color: white;
     font-size: 14px;
@@ -41,16 +42,18 @@ div .ant-image {
     text-decoration: none;
     transition: all 0.3s ease 0s;
 }
+
 .see-live-demo {
     padding-left: 3em;
 }
+
 .image-div {
     background-color: #c5f7de;
     position: relative;
 }
 
 .image-div:before {
-    background-color:#c5f7de;
+    background-color: #c5f7de;
     position: absolute;
     height: 100%;
     width: 4000px;
