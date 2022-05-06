@@ -113,9 +113,38 @@ center{
 
 .fourth-content{
     margin-top: 117px;
+    margin-left: 65px;
+    margin-bottom: 100px;
+    height: 650px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
 }
 
+.left-side{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 350px;
+    height: 620px;
+    
 
-.fourth-content{
-    margin-top: 80px;
 }
+.right-side{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 620px;
+    
+}
+
+.centre-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    width: 640px;
+    
+}
+

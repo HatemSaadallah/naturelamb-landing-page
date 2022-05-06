@@ -2,6 +2,7 @@ import React from "react";
 import Navb from "../../Components/Navbar/navbar";
 import BottomNav from "../../Components/BottomNavbar/bottomNav";
 import ContactUsHome from '../../Components/HomePageSections/ContactUs/contactus.homepage.section';
+import Slider from "../../Components/AboutUs/slider/Slider";
 
 import './about.style.css';
 
@@ -50,9 +51,60 @@ export default function About() {
       </section>
 
       <section className="fourth-content">
-        <div>
+          <div className="left-side">
+              <img
+                src="/images/aboutUs/pink-man.png"
+                width='120px'
+                height='120px'
+                style={{marginLeft:'250px'}}
+               />
+               <img
+                src="/images/aboutUs/Ova.png"
+                width='100px'
+                height='100px'
+                style={{marginLeft:'56px',marginTop:'200px'}}
+               />
+               <img
+                src="/images/aboutUs/Ov.png"
+                width='120px'
+                height='120px'
+                style={{marginLeft:'250px',marginTop:'200px'}}
+               />
+          </div>
+          <div className="centre-side">
+            <img
+                  src="/images/aboutUs/Heading.png"
+                  width='640px'
+                  height='200px'
+                />
+
+            <Slider />
+           
+
+
+          </div>
+          <div className="right-side">
+              <img
+                src="/images/aboutUs/woman.png"
+                width='100px'
+                height='100px'
+                style={{marginRight:'250px'}}
+               />
+               <img
+                src="/images/aboutUs/pic.png"
+                width='180px'
+                height='180px'
+                style={{marginLeft:'140px',marginTop:'160px'}}
+               />
+               <img
+                src="/images/aboutUs/O.png"
+                width='100px'
+                height='100px'
+                style={{marginRight:'250px',marginTop:'160px'}}
+               />
+          </div>
+
           
-        </div>
         
       </section>
 

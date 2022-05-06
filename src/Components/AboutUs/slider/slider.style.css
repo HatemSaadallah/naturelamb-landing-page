@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap');
+.bod{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+}
+.c{
+    position: absolute;
+    border-radius: 10px;
+    box-shadow: 0px 10px 7px #ddd;
+}
+.c1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    z-index: -1;
+    background-color:rgb(255, 255, 255);
+    width: 600px;
+    height: 265px;
+}
+.c2{
+    margin-top: 150px;
+    background-color:rgb(255, 255, 255);
+    z-index: -2;
+    width: 580px;
+    height: 155px;
+}
+.c3{
+    margin-top: 250px;
+    z-index: -3;
+    background-color: rgb(255, 255, 255);
+    width: 560px;
+    height: 100px;
+    
+}
+
+
+.quo{
+    width: 60px;
+    height: 50px;
+    
+}
+
+
+.tex{
+    font-family:'Cairo', sans-serif ;
+    width: 450px;
+    height: 152px;
+    margin-top: -25px;
+}
+
+
+.nam{
+    font-family:'Cairo', sans-serif ;
+}

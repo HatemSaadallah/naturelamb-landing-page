@@ -1,38 +1,38 @@
 {
-  "name": "naturelamb-landing-page",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@fontsource/cairo": "^4.5.9",
-    "@testing-library/jest-dom": "^5.16.4",
-    "@testing-library/react": "^13.1.1",
-    "@testing-library/user-event": "^13.5.0",
-    "antd": "^4.20.1",
-    "bootstrap": "^5.1.3",
-    "react": "^18.1.0",
-    "react-bootstrap": "^2.3.0",
-    "react-dom": "^18.1.0",
-    "react-icons": "^4.3.1",
-    "react-redux": "^8.0.1",
-    "react-router-dom": "^6.3.0",
-    "react-scripts": "^2.1.3",
-    "typeface-cairo": "^1.1.13",
-    "web-vitals": "^2.1.4"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+    "name": "naturelamb-landing-page",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@fontsource/cairo": "^4.5.9",
+        "@testing-library/jest-dom": "^5.16.4",
+        "@testing-library/react": "^13.1.1",
+        "@testing-library/user-event": "^13.5.0",
+        "antd": "^4.20.1",
+        "bootstrap": "^5.1.3",
+        "react": "^18.1.0",
+        "react-bootstrap": "^2.3.0",
+        "react-dom": "^18.1.0",
+        "react-icons": "^4.3.1",
+        "react-redux": "^8.0.1",
+        "react-router-dom": "^6.3.0",
+        "react-scripts": "^2.1.3",
+        "typeface-cairo": "^1.1.13",
+        "web-vitals": "^2.1.4"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
 }
