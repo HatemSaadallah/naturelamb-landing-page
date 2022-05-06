@@ -26,8 +26,27 @@
     /* make capital */
     text-transform: uppercase;
     color: green;
+    font-family: 'Cairo';
+    /* make semi bold */
+    font-weight: 600;
 }
 
 .about-us-home-title {
     font-family: 'Cairo';
+}
+
+.semi-circle-home {
+    position: absolute;
+    right: 0;
+    top: -30%;
+}
+
+
+.about-us-home-section {
+    position: relative;
+    left: 10%;
+}
+
+.about-home-section {
+    position: relative;
 }

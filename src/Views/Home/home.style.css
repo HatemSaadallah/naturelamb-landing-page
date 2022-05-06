@@ -6,9 +6,6 @@
     min-height: 380px;
 }
 
-.cards-view {
-    /* padding: 9em auto 0 auto; */
-}
 
 .home-page-layout {
     background-color: white;
@@ -23,4 +20,8 @@
     width: 50%;
     height: 15em;
     background-color: #c5f7de;
+}
+
+.products-home {
+    margin-top: 10em;
 }
