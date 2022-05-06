@@ -1,3 +1,43 @@
+.products-section {
+    position: relative;
+}
 .products-text {
-    width: 80%;
+    width: 50%;
+    font-family: 'Cairo';
+    font-size: 20px;
+}
+
+.products-home-page-word {
+    /* Make capital */
+    text-transform: uppercase;
+    color: #FF3A46;
+    font-family: 'Cairo';
+}
+
+.subheading-products-home {
+    font-family: 'Cairo';
+    /* Make underscored */
+    text-decoration: underline;
+    font-family: 'Cairo';
+    color: #233D63;
+}
+
+.products-image-person-home {
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+.products-image-person-home span {
+    margin-left: 2em;
+    font-family: 'Cairo';
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.semi-circle-products {
+    position: absolute;
+    right: 0;
+    bottom: -30%;
+    /* Add opacity to image */
+    opacity: 0.5;
 }

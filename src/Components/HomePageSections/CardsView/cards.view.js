@@ -10,27 +10,27 @@ export default function CardsView() {
             <Row>
                 {/* Add two equal Cols */}
                 <Col span={12}>
-                    <img 
+                    <img
                         src="images/home/features-icons/plus.png"
                         className="plus-icon"
                         alt=""
                     />
-                    <img 
+                    <img
                         src="images/home/features-icons/stroke13.png"
                         className="small-square-icon"
                         alt=""
                     />
-                    <img 
+                    <img
                         src="images/home/features-icons/small-circle.png"
                         className="small-circle-icon"
                         alt=""
                     />
-                    <img 
+                    <img
                         src="images/home/features-icons/stroke12.png"
                         className="small-square-icon2"
                         alt=""
                     />
-                    <img 
+                    <img
                         src="images/home/Path66.png"
                         className="path-image-bg-cards-home"
                         alt=""
@@ -67,7 +67,7 @@ export default function CardsView() {
                     </div>
                 </Col>
                 <Col className="features-left-col" span={12}>
-                    <img className="semi-circle-home" src="images/home/Ellipse8.png"  alt=""/>
+                    <img className="semi-circle-home-cards-view" src="images/home/Ellipse8.png" alt="" />
                     <ExploreFeatures />
                 </Col>
             </Row>

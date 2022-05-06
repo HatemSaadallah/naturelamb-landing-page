@@ -5,18 +5,23 @@ import './products.homepage.style.css';
 export default function ProductsHome() {
     return (
         <>
-            <Row>
-                <Col span={12}>
-                    
+            <Row className="products-section">
+                <Col span={13}>
+
                 </Col>
-                <Col span={12}>
-                    <p>Products</p>
-                    <h1>Canes & Walking Sticks</h1>
+                <Col span={11}>
+                    <p className='products-home-page-word'>Products</p>
+                    <h1 className='subheading-products-home'>Canes & Walking Sticks</h1>
                     <p className='products-text'>
-                        Visit our walking sticks page to know our product with more 
+                        Visit our walking sticks page to know our product with more
                         history, we have a wide variety of colours, cuffs and materials.
                     </p>
+                    <div className='products-image-person-home'>
+                        <img  src="/images/home/products-icons/person.png" alt='' />
+                        <span>Canes & Walking Sticks</span>
+                    </div>
                 </Col>
+            <img src='/images/home/about-us-icons/right.png' alt='' className='semi-circle-products' />
             </Row>
         </>
     );
