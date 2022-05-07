@@ -4,6 +4,15 @@ export const slideshowdata = [
         title: 'First slide label',
         description: 'Nulla vitae elit libero, a pharetra augue mollis interdum.',
         image: 'images/products/slide1.png',
+        details:{
+            dimensions:'60 x 40 cm',
+            height:'70 - 110 cm',
+            weight:'10 Kg',
+            wheels:'4 ruedas',
+            textile:'acero croma',
+            woodenStool:'madera laminada'
+
+        }
     },
     {
         id: 2,
