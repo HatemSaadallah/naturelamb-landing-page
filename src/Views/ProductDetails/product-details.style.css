@@ -1,6 +1,7 @@
 .first-content{
     margin-top: 160px;
+    margin-left: 55px;
     display: flex;
-    flex-direction: column;
+    flex-direction: column
 }
 

@@ -1,0 +1,44 @@
+.prev-arrow{
+    width: 35px;
+    height:31px;
+}
+
+.next-arrow{
+    width: 35px;
+    height:31px;
+}
+
+.slider{
+    width: 1400px;
+}
+
+.slide{
+    display: -webkit-inline-box;
+    justify-self: end;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.det{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 200px;
+    margin-top: 15px;
+    
+}
+.det-text{
+    width: 120px;
+    display: flex;
+    justify-content: start;   
+}
+
+.det-img{
+    width: 120px;
+    display: flex;
+    justify-content: start;   
+}
